@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: beige;
+    font-family:Microsoft JhengHei;
+}
+
+#wrapper{
+    margin: 0px auto;
+    width: 500px;
+}
+
+#logo{
+    height: 250px;
+}
+img {
+display-align: center;
+    float: center;
+    display: inline-block;
+max-width:600px;
+myimg:expression(onload=function(){
+this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
+}
+
+
+nav{
+    background-color: #b65167
+    text-align: left;
+}
+
+ul{
+    display: inline-block;
+    margin: auto;
+}
+
+/* list-style-type 屬性用於設定項目清單的樣式。在此,我們設定項目清單的樣式為無樣式(none)。 */
+li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+
+li a{
+    display: block;
+    padding: 15px; 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #ffc90e;
+}
+
+#content{
+    padding:30px 50px;
+    text-align: center;
+    backeground-color: #F4F4ED;
+}
+
+#content_in h1{
+    color: rgb(180, 182, 50);
+    margin-bottom: 150px;
+}
+
+#content_in p{
+    font-size: 15px;
+    margin-bottom: 50;
+}
+
+#content_in a{
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    margin:0 auto;
+    text-decoration: none;
+    background-color: #b63d32
+    color: #FFFFFF;
+}
+
